@@ -1,0 +1,21 @@
+{
+  "name": "fontpath-util",
+  "version": "0.0.0",
+  "description": "Some simple utils for handling font sizes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt DesLauriers",
+  "license": "MIT",
+  "keywords": [
+    "fonts",
+    "font",
+    "ttf",
+    "em",
+    "pixel",
+    "points",
+    "px",
+    "pt"
+  ]
+}

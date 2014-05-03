@@ -1,11 +1,9 @@
-# font util
-
 Some utils for handling font sizing when working with vector fonts.
 
-Used with [fontpath](https://github.com/mattdesl/fontpath).
+Useful alongside the [fontpath](https://github.com/mattdesl/fontpath) generator.
 
 ```js
-	var fnt = require('fontutils');
+	var fnt = require('fontpath-util');
 
 	//convert point size to pixel size
 	//Resolution defaults to 72

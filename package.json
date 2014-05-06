@@ -17,5 +17,13 @@
     "points",
     "px",
     "pt"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattdesl/fontpath-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattdesl/fontpath-util/issues"
+  },
+  "homepage": "https://github.com/mattdesl/fontpath-util"
 }

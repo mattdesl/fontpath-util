@@ -36,6 +36,9 @@ module.exports.pointToPixel = function(fontSize, dpi) {
  * @return {Number} returns the scale for this font size         
  */
 module.exports.getPxScale = function(font, fontSize) {
+    if (font.bitmap)
+        return 1.0;
+
     //If no fontSize is specified, it will just fall back to using the font's own size with 96 DPI.
     fontSize = typeof fontSize === "number" ? fontSize : this.pointToPixel(font.size);
 
